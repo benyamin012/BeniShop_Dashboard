@@ -5,7 +5,6 @@ import { FaJediOrder } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { CiFileOn } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
-import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useSearchParams } from "react-router-dom";
 const SideBarPart = () => {
