@@ -5,7 +5,8 @@ import { FaUsers } from "react-icons/fa";
 import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { FaDollarSign } from "react-icons/fa";
 
-import SalesOverview from "../../components/SalesOverview";
+import SalesOverview from "./components/SalesOverview";
+import RecentOrder from "./components/RecentOrder";
 const DashboardPage = () => {
   return (
     <div className="w-full p-6">
@@ -47,7 +48,10 @@ const DashboardPage = () => {
           color="#00ffb3"
         />
       </div>
-      <SalesOverview />
+      <div className="flex justify-between gap-2.5">
+        <SalesOverview />
+        <RecentOrder />
+      </div>
     </div>
   );
 };
