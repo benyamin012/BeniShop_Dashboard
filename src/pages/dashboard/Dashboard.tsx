@@ -16,6 +16,8 @@ const DashboardPage = () => {
           title="Total Orders"
           price="1,250"
           description="Total orders received"
+          data={[10, 25, 40, 5, 25, 60, 12]}
+          color="#1100ff"
         />
 
         <TopCartDashboard
@@ -23,6 +25,8 @@ const DashboardPage = () => {
           title="Total Customers"
           price="850"
           description="Registered customers"
+          data={[50, 20, 15, 35, 10, 10, 27]}
+          color="#00f7ff"
         />
 
         <TopCartDashboard
@@ -30,6 +34,8 @@ const DashboardPage = () => {
           title="Total Products"
           price="320"
           description="Available products"
+          data={[10, 65, 45, 35, 25, 40, 15]}
+          color="#ff0000"
         />
 
         <TopCartDashboard
@@ -37,6 +43,8 @@ const DashboardPage = () => {
           title="Total Revenue"
           price="$12,500"
           description="Total revenue generated"
+          data={[10, 20, 15, 30, 25, 40, 35]}
+          color="#00ffb3"
         />
       </div>
       <SalesOverview />
