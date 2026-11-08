@@ -20,7 +20,7 @@ const salesData = [
 
 const SalesOverview = () => {
   return (
-    <section className="rounded-xl border border-slate-200 bg-white p-5 mt-5 shadow-sm">
+    <section className="rounded-xl border w-[52%] border-slate-200 bg-white p-5 mt-5 shadow-sm">
       <div className="mb-6 flex items-center justify-between">
         <h2 className="text-lg font-bold text-slate-800">Sales Overview</h2>
 

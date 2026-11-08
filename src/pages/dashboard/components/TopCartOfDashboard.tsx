@@ -31,13 +31,14 @@ const TopCartDashboard = ({
           <h4 className="text-sm font-medium text-slate-500">{title}</h4>
 
           <span className="text-2xl font-bold text-slate-800">{price}</span>
-          <Sparkline data={data} color={color} />
         </div>
       </div>
       {/* Description */}
-      <p className="mt-5 border-t items-center text-center border-slate-100 pt-3 text-sm text-slate-500">
-        {description}
-      </p>
+      <div className="mt-5 flex flex-col items-end gap-2 pt-3">
+        <Sparkline data={data} color={color} />
+
+        <p className="w-full text-sm text-slate-500">{description}</p>
+      </div>
     </section>
   );
 };

@@ -48,9 +48,36 @@ const DashboardPage = () => {
           color="#00ffb3"
         />
       </div>
-      <div className="flex justify-between gap-2.5">
+      <div className="flex  gap-2.5">
         <SalesOverview />
-        <RecentOrder />
+        <RecentOrder
+          title="Gun"
+          price={1000}
+          date="4 oct time:4:25"
+          status="pending"
+          img="jkdf;ljf;lfdjk"
+        />
+        <RecentOrder
+          title="car"
+          price={25000}
+          date="5 jun time:10:25"
+          status="completed"
+          img="salam"
+        />
+        <RecentOrder
+          title="phone"
+          price={999}
+          date="4 oct time:4:25"
+          status="pending"
+          img="phone"
+        />
+        <RecentOrder
+          title="Gun"
+          price={1000}
+          date="4 oct time:4:25"
+          status="pending"
+          img="jkdf;ljf;lfdjk"
+        />
       </div>
     </div>
   );
