@@ -1,28 +1,24 @@
-interface RecentOrderProps {
-  img: string;
-  title: string;
-  price: string | number;
-  date: string;
-  status: string;
-}
+import RecentOrderDetails from "./RecentOrderInformation";
 
-const RecentOrder = ({ title, price, date, status, img }: RecentOrderProps) => {
+const RecentOrder = () => {
   return (
     <>
       <section className=" w-[48%] rounded-xl border border-slate-200 bg-white p-5 mt-5 shadow-sm">
-        <div className="flex justify-between">
+        <div className="flex px-2 justify-between">
           <h1>Recent Order</h1>
           <button>View All</button>
+          <img
+            src="./../../assets/images/0a0fbbdbedcb7be1e4cfe35e2776ef07a26d17c4_1759666568-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div className="flex gap-5 justify-between mt-5 items-center">
-          <img src={img} alt="" className="w-10 h-10" />
-          <div>
-            <h1>{title}</h1>
-            <span>{date}</span>
-          </div>
-          <button>{status}</button>
-          <span>{price}</span>
-        </div>
+        <RecentOrderDetails
+          title="car"
+          price={1000}
+          date="4 oct time:4:25"
+          status="pending"
+          img=""
+        />
       </section>
     </>
   );
