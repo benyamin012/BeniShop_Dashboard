@@ -5,7 +5,7 @@ import { LuLogOut } from "react-icons/lu";
 const TopBarPart = () => {
   return (
     <>
-      <section className="w-full justify-between h-20 border-b border-b-[#001e574] flex px-10 items-center text-center">
+      <section className="w-full justify-between h-20 border-b border-b-gray-300 flex px-10 items-center text-center">
         <div className="flex items-center text-center gap-5 ">
           <GiHamburgerMenu className="cursor-pointer" size={20} />
 

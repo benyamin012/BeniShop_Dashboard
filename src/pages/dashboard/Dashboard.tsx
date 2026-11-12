@@ -7,10 +7,10 @@ import { FaDollarSign } from "react-icons/fa";
 
 import SalesOverview from "./components/SalesOverview";
 import RecentOrder from "./components/RecentOrder";
+import SellingProducts from "./components/SellingProducts";
 const DashboardPage = () => {
   return (
-    <div className="w-full p-6">
-      <h1 className="mb-6 text-2xl font-bold text-slate-800">Dashboard</h1>
+    <div className="w-full px-9 py-5">
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
         <TopCartDashboard
           icon={<AiOutlineShopping size={25} />}
@@ -52,6 +52,9 @@ const DashboardPage = () => {
         <SalesOverview />
 
         <RecentOrder />
+      </div>
+      <div className="flex  gap-2.5">
+        <SellingProducts />
       </div>
     </div>
   );

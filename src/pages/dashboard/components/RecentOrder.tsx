@@ -9,7 +9,7 @@ const RecentOrder = () => {
       <section className=" w-[48%] rounded-xl border border-slate-200 bg-white p-5 mt-5 shadow-sm">
         <div className="flex px-2 justify-between">
           <h1 className="font-bold text-xl">Recent Order</h1>
-          <button className="text-black border rounded-lg border-gray-300 px-4 py-2 hover:text-blue-700">
+          <button className="text-black border rounded-lg border-gray-300 px-3 py-1.5 text-sm font-medium hover:text-blue-700">
             View All
           </button>
         </div>

@@ -34,9 +34,8 @@ const TopCartDashboard = ({
         </div>
       </div>
       {/* Description */}
-      <div className="mt-5 flex flex-col items-end gap-2 pt-3">
-        <Sparkline data={data} color={color} />
-
+      <Sparkline data={data} color={color} />
+      <div className=" flex  flex-col items-center text-center gap-2 ">
         <p className="w-full text-sm text-slate-500">{description}</p>
       </div>
     </section>

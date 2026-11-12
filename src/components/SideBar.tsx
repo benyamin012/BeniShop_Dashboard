@@ -13,7 +13,7 @@ const SideBarPart = () => {
   console.log(username);
 
   return (
-    <div className="continer  flex flex-col shrink-0 w-2xs   p-5 h-screen bg-[#02132e]">
+    <div className="continer  flex flex-col shrink-0 w-2xs relative  p-5 h-screen bg-[#02132e]">
       <div className=" flex w-full top-0 gap-1">
         <AiOutlineShopping
           className="text-5xl max-lg:text-3xl"
