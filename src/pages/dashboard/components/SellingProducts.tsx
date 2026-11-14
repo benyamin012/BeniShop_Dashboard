@@ -5,7 +5,7 @@ import car from "../../../assets/images/435792257-18013735832249576-964096162712
 // import SellingProductDetails from "./SellingProductsComponent";
 const SellingProducts = () => {
   return (
-    <section className=" w-[48%] rounded-xl border border-slate-200 bg-white p-5 mt-5 shadow-sm">
+    <section className=" w-[52%] rounded-xl border border-slate-200 bg-white p-5 mt-5 shadow-sm">
       <div className="flex  justify-between">
         <h1 className="font-bold text-xl">Top Selling Products</h1>
         <button className="text-black border rounded-lg border-gray-300 px-3 py-1.5 text-sm font-medium hover:text-blue-700">
@@ -15,7 +15,7 @@ const SellingProducts = () => {
       <table className="w-full items-center relative  text-center my-5  ">
         <tr className="border-b  border-b-gray-300 shadow-2xs w-full ">
           <th className="font-medium text-sm py-2.5 text-start">Product</th>
-          <th className="font-medium text-sm px-45 text-end">Sold</th>
+          <th className="font-medium text-sm px-53 text-end">Sold</th>
           <th className="font-medium text-sm ">Revenue</th>
         </tr>
         <tr className="border-b border-b-gray-200  ">
@@ -37,7 +37,7 @@ const SellingProducts = () => {
               src={phone}
               alt=""
             />
-            <h3 className="font-medium">{"Iphone 17 proMax orenge"}</h3>
+            <h3 className="font-medium ">{"Iphone 17 proMax orenge"}</h3>
           </td>
           <td className="font-medium">28</td>
           <td className="font-medium">$1200</td>

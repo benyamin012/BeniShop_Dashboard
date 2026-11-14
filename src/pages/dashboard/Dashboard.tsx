@@ -8,6 +8,7 @@ import { FaDollarSign } from "react-icons/fa";
 import SalesOverview from "./components/SalesOverview";
 import RecentOrder from "./components/RecentOrder";
 import SellingProducts from "./components/SellingProducts";
+import PieAnimation from "./components/PieAnimation";
 const DashboardPage = () => {
   return (
     <div className="w-full px-9 py-5">
@@ -55,6 +56,7 @@ const DashboardPage = () => {
       </div>
       <div className="flex  gap-2.5">
         <SellingProducts />
+        <PieAnimation />
       </div>
     </div>
   );
